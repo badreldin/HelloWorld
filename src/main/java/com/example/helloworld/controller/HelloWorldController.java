@@ -12,7 +12,7 @@ public class HelloWorldController {
 
     @GetMapping("/hello")
     public String home(Model model) {
-        model.addAttribute("message", "Hello from Badreldim with Java 21!");
+        model.addAttribute("message", "Hello from Badreldin with Java 21!");
         return "index"; // Refers to src/main/resources/templates/index.html
     }
 }
