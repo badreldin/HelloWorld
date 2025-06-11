@@ -13,7 +13,7 @@ public class HelloWorldController {
 
     @GetMapping("/")
     public String index(Model model) {
-        model.addAttribute("message", "Hello from Badreldin!");
+        model.addAttribute("message", "Hello from Badreldin Altayeb!");
         return "index"; // This will resolve to templates/index.html
     }
 
